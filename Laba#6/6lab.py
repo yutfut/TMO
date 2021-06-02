@@ -19,10 +19,8 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn import tree
 import re
 
+
 def load_data():
-    '''
-    Загрузка данных
-    '''
     data = pd.read_csv('data/data-3.csv')
     return data
 
